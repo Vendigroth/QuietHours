@@ -34,7 +34,7 @@ namespace TVC
         {
             InitializeComponent();
             Timer MyTimer = new Timer();
-            MyTimer.Interval = (60 * 1000);
+            MyTimer.Interval = (1 * 1000);
             MyTimer.Tick += new EventHandler(MyTimer_Tick);
             MyTimer.Start();
             lblTime.Text = DateTime.Now.ToString("h:mm tt");
@@ -146,6 +146,9 @@ namespace TVC
 
         private void btnToggle_Click(object sender, EventArgs e)
         {
+            enabled = false;
+            cbEnable.Checked = false;
+
             if (muted)
             {
                 UnMute();
