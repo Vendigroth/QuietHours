@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TVC.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OffTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">01/01/2015 01:00:00</Value>
+    </Setting>
+    <Setting Name="OnTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">01/01/2015 01:00:00</Value>
+    </Setting>
+    <Setting Name="Enabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
