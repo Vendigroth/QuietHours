@@ -54,7 +54,8 @@ namespace TVC
             // next day case
             if (offTime > onTime)
             {
-                if (now >= on && now <= off)
+                
+                if (now >= on && now < off)
                 {
                     // Between on and off. unmute. 
                     UnMute();
